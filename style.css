@@ -1529,5 +1529,30 @@ header nav .navbar__list .activenav {
     cursor: pointer; /* Makes the logo clickable */
 }
 
+html{
+    overflow-x: hidden;
+}
 
+header {
+    padding: 20px;
+    background-color: #fff;
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-radius: 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.navbar__items:not(:last-child) {
+display: none;
+  }
+
+  .navbar__items:last-child{
+    margin-top: 20px;
+  }
+  
 }
