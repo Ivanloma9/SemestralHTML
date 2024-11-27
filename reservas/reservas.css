@@ -265,7 +265,7 @@ box-shadow: 3px 26px 10px -7px rgba(171,171,171,1);
 
 
 
-.reserva_next_button{
+.reserva__next__button{
     background-color: var(--dark_color);
     border: none;
     padding: 10px;
